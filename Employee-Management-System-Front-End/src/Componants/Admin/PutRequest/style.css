@@ -1,0 +1,13 @@
+/* ModalStyles.css */
+.fullscreen-modal {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.fullscreen-modal .modal-content {
+    height: 100%;
+    border-radius: 0; /* Optional: remove rounded corners */
+}

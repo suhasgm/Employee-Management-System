@@ -1,0 +1,43 @@
+/* 
+ */
+
+.img-box {
+    display: flex;
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+}
+
+.login-box {
+    width: 100%; /* Make the card take the full width of the column */
+    max-width: 400px; /* Set a maximum width for the card */
+    height:auto;
+    margin: auto; /* Center the card horizontally */
+    margin-right: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add rounded corners */
+    background-color: white; /* Set a background color for the card */
+}
+
+.log-box {
+    display: flex;
+    justify-content: flex-end; /* Align the login card to the right */
+    align-items: center; /* Center vertically */
+}
+
+.input-hover {
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-hover:focus {
+    border-color: #dc3545; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5); /* Shadow effect on focus */
+}
+.text-primary {
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for color */
+}
+
+.text-primary:hover {
+    color: #dc3545; /* Change color on hover */
+}
+
